@@ -2,7 +2,7 @@ package run;
 
 import entity.Dish;
 import org.xml.sax.SAXException;
-import Handler.SaxHandler;
+import handler.SaxHandler;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
