@@ -1,4 +1,4 @@
-package parsers;
+package Handler;
 
 import entity.Dish;
 import org.xml.sax.Attributes;
