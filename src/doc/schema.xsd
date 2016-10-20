@@ -13,18 +13,18 @@
 
     <simpleType name="dishType">
         <restriction base="string">
-            <enumeration value="cold snacks"></enumeration>
-            <enumeration value="hot snacks"></enumeration>
-            <enumeration value="breakfast"></enumeration>
-            <enumeration value="salads"></enumeration>
-            <enumeration value="soups"></enumeration>
-            <enumeration value="fish dishes"></enumeration>
-            <enumeration value="meat dishes"></enumeration>
-            <enumeration value="garnishes"></enumeration>
-            <enumeration value="dishes on the grill"></enumeration>
-            <enumeration value="dish from sheff"></enumeration>
-            <enumeration value="application"></enumeration>
-            <enumeration value="dessert"></enumeration>
+            <enumeration value="COLD_SNACK"></enumeration>
+            <enumeration value="HOT_SNACK"></enumeration>
+            <enumeration value="BREAKFAST"></enumeration>
+            <enumeration value="SALAD"></enumeration>
+            <enumeration value="SOUP"></enumeration>
+            <enumeration value="FISH_DISH"></enumeration>
+            <enumeration value="MEAT_DISH"></enumeration>
+            <enumeration value="GARNISH"></enumeration>
+            <enumeration value="DISH_ON_THE_GRILL"></enumeration>
+            <enumeration value="DISH_FROM_SHEFF"></enumeration>
+            <enumeration value="APPLICATION"></enumeration>
+            <enumeration value="DESSERT"></enumeration>
         </restriction>
     </simpleType>
 

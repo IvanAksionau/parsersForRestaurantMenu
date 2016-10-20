@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <menu xmlns="www.epam.task.xml.com">
     <dish ID="1">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Ассорти рыбное</name>
         <description>Слабосалёная форель,сёмга</description>
@@ -10,7 +10,7 @@
     </dish>
 
     <dish ID="2">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Тарталетки с красной икрой</name>
         <description>Тарталетки с красной икрой</description>
@@ -19,7 +19,7 @@
     </dish>
 
     <dish ID="3">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some photo</photo>
         <name>Закуска по-русски</name>
         <description>Кусочки атлантической сельди с отварным картофелем, луком и зеленью</description>
@@ -28,7 +28,7 @@
     </dish>
 
     <dish ID="4">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some photo</photo>
         <name>Куриный рулет</name>
         <description>Куриный рулет собственного производства</description>
@@ -37,7 +37,7 @@
     </dish>
 
     <dish ID="5">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some photo</photo>
         <name>Бастурма</name>
         <description>Вяленая вырезка из говяжьего мяса</description>
@@ -46,7 +46,7 @@
     </dish>
 
     <dish ID="6">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Ассорти мясное</name>
         <description>Нарезка из буженины, бастурмы, куриного рулета собственного производства и колбасы</description>
@@ -55,7 +55,7 @@
     </dish>
 
     <dish ID="7">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Язык отварной</name>
         <description>Нарезка нежного говяжьего языка, подается с хреном</description>
@@ -64,7 +64,7 @@
     </dish>
 
     <dish ID="8">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Ассорти баклажаны</name>
         <description>Жаренные баклажаны с помидорами</description>
@@ -73,7 +73,7 @@
     </dish>
 
     <dish ID="9">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Ассорти баклажаны</name>
         <description>Жаренные баклажаны с чесноком</description>
@@ -82,7 +82,7 @@
     </dish>
 
     <dish ID="10">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Ассорти баклажаны</name>
         <description>Жаренные баклажаны с орехами</description>
@@ -91,7 +91,7 @@
     </dish>
 
     <dish ID="11">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Соленья по-домашнему</name>
         <description>Маринованные овощи</description>
@@ -100,7 +100,7 @@
     </dish>
 
     <dish ID="12">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Бабушкины угощенья</name>
         <description>Ассорти из маринованных грибов</description>
@@ -109,7 +109,7 @@
     </dish>
 
     <dish ID="13">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Сырная тарелка</name>
         <description>Сыры Чечел, дор блю, российский, мраморный</description>
@@ -118,7 +118,7 @@
     </dish>
 
     <dish ID="14">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Брынза</name>
         <description>Рассольный сыр, изготавливаемый из овечьего молока</description>
@@ -127,7 +127,7 @@
     </dish>
 
     <dish ID="15">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Зелень</name>
         <description>Кинза, лук, петрушка, укроп, базалик</description>
@@ -136,7 +136,7 @@
     </dish>
 
     <dish ID="16">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Ассорти овощное</name>
         <description>Свежие помидоры, болгарский перец, огурцы, редис и зелень</description>
@@ -145,7 +145,7 @@
     </dish>
 
     <dish ID="17">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Овощной букет</name>
         <description>Корейская морковь, капуста, фунчоза</description>
@@ -154,7 +154,7 @@
     </dish>
 
     <dish ID="18">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Овощи по-армянски</name>
         <description>Мелко нарезанные свежие помидоры, огурцы, болгарский перец, укроп, базилик, кинза, лист салата, зелень</description>
@@ -163,7 +163,7 @@
     </dish>
 
     <dish ID="19">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Сеньор Помидор</name>
         <description>Помидор, фаршированный муссом</description>
@@ -172,7 +172,7 @@
     </dish>
 
     <dish ID="20">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Фестиваль салатов</name>
         <description>without description</description>
@@ -181,7 +181,7 @@
     </dish>
 
     <dish ID="21">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Оливки, маслины</name>
         <description>without description</description>
@@ -190,7 +190,7 @@
     </dish>
 
     <dish ID="22">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Лимон</name>
         <description>without description</description>
@@ -199,7 +199,7 @@
     </dish>
 
     <dish ID="23">
-        <dishType>cold snacks</dishType>
+        <dishType>COLD_SNACK</dishType>
         <photo>some path</photo>
         <name>Мацони</name>
         <description>without description</description>

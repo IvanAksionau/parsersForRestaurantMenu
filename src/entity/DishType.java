@@ -1,0 +1,9 @@
+package entity;
+
+/**
+ * Created by Ivan on 20.10.2016.
+ */
+public enum DishType {
+    COLD_SNACK, HOT_SNACK, BREAKFAST, SALAD, SOUP, FISH_DISH, MEAT_DISH, GARNISH,
+    DISH_ON_THE_GRILL, DISH_FROM_SHEFF, APPLICATION, DESSERT
+}

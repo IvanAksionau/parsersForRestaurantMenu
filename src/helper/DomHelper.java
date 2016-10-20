@@ -1,6 +1,7 @@
 package helper;
 
 import entity.Dish;
+import entity.DishType;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
@@ -26,7 +27,7 @@ public class DomHelper {
             dishForList.setDishID(Integer.parseInt(dish.getAttribute("ID")));
             // dish.getChildNodes().item(1/потом 2 и тд).getChildNodes().item(0).getNodeValue();таким способом короче, но непонятнее)
             dishForList.setDishType(
-                    dish.getElementsByTagName("dishType").item(0).getChildNodes().item(0).getNodeValue());
+                    DishType.valueOf(dish.getElementsByTagName("dishType").item(0).getChildNodes().item(0).getNodeValue()));
             dishForList.setPhotoPath(
                     dish.getElementsByTagName("photo").item(0).getChildNodes().item(0).getNodeValue());
             dishForList.setDishName(

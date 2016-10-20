@@ -1,6 +1,7 @@
 package helper;
 
 import entity.Dish;
+import entity.DishType;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -50,7 +51,7 @@ public class SaxHandler extends DefaultHandler {
     public void characters(char[] ch, int start, int end) {
         switch (elementName) {
             case "dishType":
-                dish.setDishType(new String(ch, start, end));
+                dish.setDishType(DishType.valueOf(new String(ch, start, end)));
                 break;
             case "photo":
                 dish.setPhotoPath(new String(ch, start, end));

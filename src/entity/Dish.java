@@ -6,7 +6,7 @@ package entity;
 public class Dish {
 
     private int dishID;
-    private String dishType;
+    private DishType dishType;
     private String photoPath;
     private String dishName;
     private String dishDescription;
@@ -25,7 +25,7 @@ public class Dish {
         this.dishID = dishID;
     }
 
-    public void setDishType(String dishType) {
+    public void setDishType(DishType dishType) {
         this.dishType = dishType;
     }
 

@@ -1,6 +1,7 @@
 package helper;
 
 import entity.Dish;
+import entity.DishType;
 
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
@@ -42,7 +43,7 @@ public class StaxHelper {
                     }
                     switch (elementName) {
                         case "dishType":
-                            dish.setDishType(reader.getText());
+                            dish.setDishType(DishType.valueOf(reader.getText()));
                             break;
                         case "photo":
                             dish.setPhotoPath(reader.getText());
