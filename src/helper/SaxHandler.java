@@ -1,4 +1,4 @@
-package handler;
+package helper;
 
 import entity.Dish;
 import org.xml.sax.Attributes;
@@ -12,7 +12,7 @@ import java.util.List;
  * Created by Ivan on 18.10.2016.
  */
 public class SaxHandler extends DefaultHandler {
-    private String element;
+    private String elementName;
     private Dish dish;
     private List<Dish> dishList = new ArrayList<>();
 
@@ -30,8 +30,8 @@ public class SaxHandler extends DefaultHandler {
 
     @Override
     public void startElement(String nameSpace, String localName, String qName, Attributes attr) {
-        element = qName;
-        if (element.equals("dish")) {
+        elementName = qName;
+        if (elementName.equals("dish")) {
             dish = new Dish();
             dish.setDishID(Integer.parseInt(attr.getValue(0)));
 
@@ -43,12 +43,12 @@ public class SaxHandler extends DefaultHandler {
         if (qName.equals("dish")) {
             dishList.add(dish);
         }
-        element = "";
+        elementName = "";
     }
 
     @Override
     public void characters(char[] ch, int start, int end) {
-        switch (element) {
+        switch (elementName) {
             case "dishType":
                 dish.setDishType(new String(ch, start, end));
                 break;

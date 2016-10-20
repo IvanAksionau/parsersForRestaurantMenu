@@ -2,7 +2,7 @@ package run;
 
 import entity.Dish;
 import org.xml.sax.SAXException;
-import handler.SaxHandler;
+import helper.SaxHandler;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
@@ -14,12 +14,14 @@ import java.util.List;
 /**
  * Created by Ivan on 18.10.2016.
  */
-public class ParsWithSax {
+public class ParsWithSAX {
     public static void main(String[] args) {
         SAXParserFactory parserFactory = SAXParserFactory.newInstance();
+        parserFactory.setValidating(true);
         SaxHandler saxHandler = new SaxHandler();
         try {
             SAXParser parser = parserFactory.newSAXParser();
+
             parser.parse(new File("src/doc/menu.xml"),saxHandler);
         } catch (ParserConfigurationException| SAXException e) {
             e.printStackTrace();

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <menu xmlns="www.epam.task.xml.com">
-
     <dish ID="1">
         <dishType>cold snacks</dishType>
         <photo>some path</photo>
@@ -205,6 +204,6 @@
         <name>Мацони</name>
         <description>without description</description>
         <portion>300</portion>
-        <price>0</price>
+        <price>1</price>
     </dish>
 </menu>
