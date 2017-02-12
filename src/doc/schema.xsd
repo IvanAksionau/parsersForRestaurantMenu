@@ -37,7 +37,7 @@
             <element name="portion" type="tNum:portionType"/>
             <element name="price" type="positiveInteger"/>
         </sequence>
-        <attribute name="ID" type="ID" use="required"/>
+        <attribute name="ID" type="positiveInteger" use="required"/>
     </complexType>
 
     <element name="menu">

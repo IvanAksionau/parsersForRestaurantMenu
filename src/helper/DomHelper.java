@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class DomHelper {
     private static ArrayList<Dish> dishList;
     private static NodeList dishes;
-    private static Dish dishForList = new Dish();
+    private static Dish dishForList ;
 
     public static ArrayList<Dish> getDishList(Element element) {
         dishList = new ArrayList<>();
@@ -23,6 +23,7 @@ public class DomHelper {
         System.out.println("Count of founded dishes is " + dishes.getLength());
 
         for (int i = 0; i < dishes.getLength(); i++) {
+            dishForList = new Dish();
             Element dish = (Element) dishes.item(i);
             dishForList.setDishID(Integer.parseInt(dish.getAttribute("ID")));
             // dish.getChildNodes().item(1/потом 2 и тд).getChildNodes().item(0).getNodeValue();таким способом короче, но непонятнее)

@@ -69,7 +69,7 @@
         <name>Ассорти баклажаны</name>
         <description>Жаренные баклажаны с помидорами</description>
         <portion>100/5</portion>
-        <price>0</price>
+        <price>4</price>
     </dish>
 
     <dish ID="9">
@@ -78,7 +78,7 @@
         <name>Ассорти баклажаны</name>
         <description>Жаренные баклажаны с чесноком</description>
         <portion>100/5</portion>
-        <price>0</price>
+        <price>4</price>
     </dish>
 
     <dish ID="10">
@@ -87,7 +87,7 @@
         <name>Ассорти баклажаны</name>
         <description>Жаренные баклажаны с орехами</description>
         <portion>100/5</portion>
-        <price>0</price>
+        <price>4</price>
     </dish>
 
     <dish ID="11">
@@ -96,7 +96,7 @@
         <name>Соленья по-домашнему</name>
         <description>Маринованные овощи</description>
         <portion>150/10</portion>
-        <price>0</price>
+        <price>4</price>
     </dish>
 
     <dish ID="12">
@@ -105,7 +105,7 @@
         <name>Бабушкины угощенья</name>
         <description>Ассорти из маринованных грибов</description>
         <portion>120/20/10</portion>
-        <price>0</price>
+        <price>4</price>
     </dish>
 
     <dish ID="13">
@@ -114,7 +114,7 @@
         <name>Сырная тарелка</name>
         <description>Сыры Чечел, дор блю, российский, мраморный</description>
         <portion>100/5</portion>
-        <price>0</price>
+        <price>4</price>
     </dish>
 
     <dish ID="14">
@@ -123,7 +123,7 @@
         <name>Брынза</name>
         <description>Рассольный сыр, изготавливаемый из овечьего молока</description>
         <portion>75/5</portion>
-        <price>0</price>
+        <price>2</price>
     </dish>
 
     <dish ID="15">
@@ -132,7 +132,7 @@
         <name>Зелень</name>
         <description>Кинза, лук, петрушка, укроп, базалик</description>
         <portion>30</portion>
-        <price>0</price>
+        <price>2</price>
     </dish>
 
     <dish ID="16">
@@ -141,7 +141,7 @@
         <name>Ассорти овощное</name>
         <description>Свежие помидоры, болгарский перец, огурцы, редис и зелень</description>
         <portion>150/10</portion>
-        <price>0</price>
+        <price>2</price>
     </dish>
 
     <dish ID="17">
@@ -150,7 +150,7 @@
         <name>Овощной букет</name>
         <description>Корейская морковь, капуста, фунчоза</description>
         <portion>150/10</portion>
-        <price>0</price>
+        <price>2</price>
     </dish>
 
     <dish ID="18">
@@ -159,7 +159,7 @@
         <name>Овощи по-армянски</name>
         <description>Мелко нарезанные свежие помидоры, огурцы, болгарский перец, укроп, базилик, кинза, лист салата, зелень</description>
         <portion>150/40</portion>
-        <price>0</price>
+        <price>2</price>
     </dish>
 
     <dish ID="19">
@@ -168,7 +168,7 @@
         <name>Сеньор Помидор</name>
         <description>Помидор, фаршированный муссом</description>
         <portion>150/1</portion>
-        <price>0</price>
+        <price>2</price>
     </dish>
 
     <dish ID="20">
@@ -177,7 +177,7 @@
         <name>Фестиваль салатов</name>
         <description>without description</description>
         <portion>400/10</portion>
-        <price>0</price>
+        <price>2</price>
     </dish>
 
     <dish ID="21">
@@ -186,7 +186,7 @@
         <name>Оливки, маслины</name>
         <description>without description</description>
         <portion>50</portion>
-        <price>0</price>
+        <price>2</price>
     </dish>
 
     <dish ID="22">
@@ -195,7 +195,7 @@
         <name>Лимон</name>
         <description>without description</description>
         <portion>60</portion>
-        <price>0</price>
+        <price>1</price>
     </dish>
 
     <dish ID="23">
