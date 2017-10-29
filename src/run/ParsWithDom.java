@@ -2,6 +2,7 @@ package run;
 
 import entity.Dish;
 import helper.DomHelper;
+import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
 
@@ -22,7 +23,7 @@ public class ParsWithDom {
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-        org.w3c.dom.Document document = builder.parse(new File("src/doc/menu.xml"));
+        Document document = builder.parse(new File("src/doc/menu.xml"));
         Element element = document.getDocumentElement();
         dishList = DomHelper.getDishList(element);
 

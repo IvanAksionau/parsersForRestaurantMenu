@@ -7,6 +7,8 @@ import org.w3c.dom.NodeList;
 
 import java.util.ArrayList;
 
+import static java.lang.Integer.*;
+
 /**
  * Created by Ivan on 20.10.2016.
  */
@@ -25,7 +27,7 @@ public class DomHelper {
         for (int i = 0; i < dishes.getLength(); i++) {
             dishForList = new Dish();
             Element dish = (Element) dishes.item(i);
-            dishForList.setDishID(Integer.parseInt(dish.getAttribute("ID")));
+            dishForList.setDishID(parseInt(dish.getAttribute("ID")));
             // dish.getChildNodes().item(1/потом 2 и тд).getChildNodes().item(0).getNodeValue();таким способом короче, но непонятнее)
             dishForList.setDishType(
                     DishType.valueOf(dish.getElementsByTagName("dishType").item(0).getChildNodes().item(0).getNodeValue()));
@@ -38,11 +40,10 @@ public class DomHelper {
             dishForList.setDishPortion(
                     dish.getElementsByTagName("portion").item(0).getChildNodes().item(0).getNodeValue());
             dishForList.setDishPrice(
-                    Integer.parseInt(dish.getElementsByTagName("price").item(0).getChildNodes().item(0).getNodeValue()));
+                    parseInt(dish.getElementsByTagName("price").item(0).getChildNodes().item(0).getNodeValue()));
             dishList.add(dishForList);
         }
         return dishList;
     }
-
 }
 

@@ -22,15 +22,12 @@ public class ParsWithSAX {
         try {
             SAXParser parser = parserFactory.newSAXParser();
 
-            parser.parse(new File("src/doc/menu.xml"),saxHandler);
-        } catch (ParserConfigurationException| SAXException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+            parser.parse(new File("src/doc/menu.xml"), saxHandler);
+        } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
 
-        List<Dish> dishList = saxHandler.getDishList();
-        for (Dish dish : dishList){
+        for (Dish dish : saxHandler.getDishList()) {
             System.out.println(dish);
         }
     }

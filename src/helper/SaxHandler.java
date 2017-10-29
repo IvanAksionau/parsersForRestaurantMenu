@@ -9,6 +9,8 @@ import org.xml.sax.helpers.DefaultHandler;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.lang.Integer.*;
+
 /**
  * Created by Ivan on 18.10.2016.
  */
@@ -17,12 +19,10 @@ public class SaxHandler extends DefaultHandler {
     private Dish dish;
     private List<Dish> dishList = new ArrayList<>();
 
-
     @Override
     public void startDocument() throws SAXException {
         System.out.println("start parsing...");
     }
-
 
     @Override
     public void endDocument() throws SAXException {
@@ -34,8 +34,7 @@ public class SaxHandler extends DefaultHandler {
         elementName = qName;
         if (elementName.equals("dish")) {
             dish = new Dish();
-            dish.setDishID(Integer.parseInt(attr.getValue(0)));
-
+            dish.setDishID(parseInt(attr.getValue(0)));
         }
     }
 
@@ -49,24 +48,25 @@ public class SaxHandler extends DefaultHandler {
 
     @Override
     public void characters(char[] ch, int start, int end) {
+        String value = new String(ch, start, end);
         switch (elementName) {
             case "dishType":
-                dish.setDishType(DishType.valueOf(new String(ch, start, end)));
+                dish.setDishType(DishType.valueOf(value));
                 break;
             case "photo":
-                dish.setPhotoPath(new String(ch, start, end));
+                dish.setPhotoPath(value);
                 break;
             case "name":
-                dish.setDishName(new String(ch, start, end));
+                dish.setDishName(value);
                 break;
             case "description":
-                dish.setDishDescription(new String(ch, start, end));
+                dish.setDishDescription(value);
                 break;
             case "portion":
-                dish.setDishPortion(new String(ch, start, end));
+                dish.setDishPortion(value);
                 break;
             case "price":
-                dish.setDishPrice(Integer.parseInt(new String(ch, start, end)));
+                dish.setDishPrice(parseInt(value));
                 break;
         }
     }
@@ -74,5 +74,4 @@ public class SaxHandler extends DefaultHandler {
     public List<Dish> getDishList() {
         return dishList;
     }
-
 }
